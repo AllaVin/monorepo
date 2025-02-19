@@ -1,0 +1,27 @@
+Работаем с репозиторием https://github.com/it-career-hub/learning_git 
+
+
+Сделайте форк этого репозитория. 
+Открываю ссылку https://github.com/it-career-hub/learning_git , жму на кнопкуFork в верхнем правом углу, чтобы создать копию этого репозитория в своем аккаунте GitHub.
+
+Склонируйте его на локальный компьютер. 
+git clone https://github.com/AllaVin/learning_git.git 
+
+Создайте папку с именем Вашей группы, если такой еще не создано. 
+cd learning_git
+mkdir 111124-ptm 
+
+В директории с именем Вашей группы создайте файл с вашим именем (без личных данных, репозиторий публичный). 
+cd 111124-ptm 
+touch Alla.txt
+
+Выполните коммит, push и откройте PR в репозиторий https://github.com/it-career-hub/learning_git с этими изменениями из Вашего репозитория
+git add .
+git status
+git commit -m "Adding file Alla.txt"
+git push origin main
+
+
+Пришлите ссылку на открытый Pull request (например https://github.com/aliaskov/bashscripts/pull/45)
+
+ 
